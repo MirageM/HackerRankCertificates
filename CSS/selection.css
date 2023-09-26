@@ -1,0 +1,13 @@
+/*
+CSS Selection
+How do you prevent the user from selecting the text rendered inside the following element?
+<p> I should not be selectable </p>
+p {cursor-event: none;}
+p {pointer-events: none;}
+p {usaer-select: none;}
+None of the above
+*/
+p{cusor-event: none;}
+p{pointer-events: none;}
+p{user-select: none;}
+None of the above

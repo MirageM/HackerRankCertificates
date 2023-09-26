@@ -1,0 +1,14 @@
+/*
+Which of the following renders the text red?
+<p id = "tagId"> Please color me red </p>
+:root { --text-color: red; } p{color: --text-color;}
+:root { --text-color: red; } p{color: var{--text-color};}
+#tagId {color: red;} p {color:  blue;}
+p {color: red !important;} #tagId {color: blue;}
+
+*/
+<p id = "tagId"> Please color me red </p>
+:root { --text-color: red; } p{color: --text-color;}
+:root { --text-color: red; } p{color: var{--text-color};}
+#tagId {color: red;} p {color:  blue;}
+p {color: red !important;} #tagId {color: blue;}

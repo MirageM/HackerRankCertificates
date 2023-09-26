@@ -1,0 +1,19 @@
+<style>
+	div{
+		height: 50px;
+		width:  50px;
+		background:  #3ba59b;
+		border-radius: 50%;
+	}
+.greyBall:hover {transform: scale(2); transition: 0.5s;}
+</style>
+<div class = "greyBall"></div>
+
+/*
+Which of the following would create the below animation? Moving the mouse over the div should double its
+size, and the animation should happen over 500ms.
+.greyBall:hover {transform: scale(2); animate: 500ms}
+.greyBall:hover {transform: scale(2); transition: 500ms transform;}
+.greyBall:hover {transform: scale(2); transition: 0.5s;}
+.greyBall:focus {transform: scale(2); animate: 0.5s;}
+*/

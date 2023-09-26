@@ -1,0 +1,14 @@
+/*
+If an element extends beyound the allocated width, how do you truncate the sentence 
+with an ellipsis (...) using CSS?
+For example, "Hello! I am an element, and my width is larger than the container..."
+{white-space:  pre-wrap; overflow:  ellipsis;}
+{text-overflow: ellipsis; white-space: wrap; visibility: hidden;}
+{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+None of the above
+
+*/
+{white-space:  pre-wrap; overflow:  ellipsis;}
+{text-overflow: ellipsis; white-space: wrap; visibility: hidden;}
+{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+None of the above
